@@ -1,8 +1,7 @@
-﻿using System;
-using System.Data.Entity;
-using System.Linq;
-using BookStoreApi.Models;
+﻿using BookStoreApi.Models;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System;
+using System.Data.Entity;
 
 namespace BookStoreApi.Tests
 {
@@ -55,6 +54,56 @@ namespace BookStoreApi.Tests
             {
                 AuthorName = "Author",
                 Publisher = "Publisher",
+                BookPrice = 10,
+                Quantity = 1
+            };
+
+            Assert.IsTrue(typeof(Book) == book.GetType());
+
+            db.Books.Add(book);
+            try
+            {
+                db.SaveChanges();
+                Assert.Fail();
+            }
+            catch (Exception e)
+            {
+                Assert.AreEqual(e.Message, "Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.");
+            }
+        }
+
+        [TestMethod]
+        public void BookTestMethodNoAuthor()
+        {
+            var book = new Book
+            {
+                Title = "Title",
+                Publisher = "Publisher",
+                BookPrice = 10,
+                Quantity = 1
+            };
+
+            Assert.IsTrue(typeof(Book) == book.GetType());
+
+            db.Books.Add(book);
+            try
+            {
+                db.SaveChanges();
+                Assert.Fail();
+            }
+            catch (Exception e)
+            {
+                Assert.AreEqual(e.Message, "Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.");
+            }
+        }
+
+        [TestMethod]
+        public void BookTestMethodNoPublisher()
+        {
+            var book = new Book
+            {
+                Title = "Title",
+                AuthorName = "Author",
                 BookPrice = 10,
                 Quantity = 1
             };
