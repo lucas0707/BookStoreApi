@@ -31,3 +31,6 @@ C:\Git\BookStoreApi\BookStoreApi.Tests\bin\Debug\EntityFramework.SqlServer.dll
 C:\Git\BookStoreApi\BookStoreApi.Tests\bin\Debug\EntityFramework.SqlServer.xml
 C:\Git\BookStoreApi\BookStoreApi.Tests\bin\Debug\Newtonsoft.Json.dll
 C:\Git\BookStoreApi\BookStoreApi.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Git\BookStoreApi\BookStoreApi.Tests\bin\Debug\System.Web.Http.Cors.dll
+C:\Git\BookStoreApi\BookStoreApi.Tests\bin\Debug\System.Web.Cors.dll
+C:\Git\BookStoreApi\BookStoreApi.Tests\bin\Debug\System.Web.Http.Cors.xml

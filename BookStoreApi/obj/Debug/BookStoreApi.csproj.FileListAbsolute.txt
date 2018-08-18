@@ -144,3 +144,6 @@ C:\Git\BookStoreApi\BookStoreApi\BookStoreApi\obj\Debug\BookStoreApi.csproj.Core
 C:\Git\BookStoreApi\BookStoreApi\BookStoreApi\obj\Debug\BookStoreApi.csproj.CopyComplete
 C:\Git\BookStoreApi\BookStoreApi\BookStoreApi\obj\Debug\BookStoreApi.dll
 C:\Git\BookStoreApi\BookStoreApi\BookStoreApi\obj\Debug\BookStoreApi.pdb
+C:\Git\BookStoreApi\BookStoreApi\bin\System.Web.Cors.dll
+C:\Git\BookStoreApi\BookStoreApi\bin\System.Web.Http.Cors.dll
+C:\Git\BookStoreApi\BookStoreApi\bin\System.Web.Http.Cors.xml

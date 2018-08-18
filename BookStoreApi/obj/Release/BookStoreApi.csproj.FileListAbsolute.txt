@@ -71,3 +71,6 @@ C:\Git\BookStoreApi\BookStoreApi\obj\Release\BookStoreApi.csproj.CoreCompileInpu
 C:\Git\BookStoreApi\BookStoreApi\obj\Release\BookStoreApi.csproj.CopyComplete
 C:\Git\BookStoreApi\BookStoreApi\obj\Release\BookStoreApi.dll
 C:\Git\BookStoreApi\BookStoreApi\obj\Release\BookStoreApi.pdb
+C:\Git\BookStoreApi\BookStoreApi\bin\System.Web.Cors.dll
+C:\Git\BookStoreApi\BookStoreApi\bin\System.Web.Http.Cors.dll
+C:\Git\BookStoreApi\BookStoreApi\bin\System.Web.Http.Cors.xml
